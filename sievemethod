@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main{
+printf("Check if number is prime");
+int n,breakpoint,i;
+printf("enter number");
+scanf(%d,&n);
+if(n==0 || n==1){
+print("not prime");}
+
+for(i=2,i<=n/2,i++){
+if(n%i==0){
+printf("not prime");
+breakpoint=1;
+break;}
+	
+
+
